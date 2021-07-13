@@ -187,6 +187,7 @@ body::after {
 
 .storage-info__total-space {
   width: 100%;
+  font-weight: 700;
   display: flex;
   justify-content: space-between;
 }
