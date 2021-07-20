@@ -56,7 +56,7 @@ body {
 
 .content-wrapper {
     width: 80%;
-    max-width: 900px;
+    max-width: 910px;
     min-width: 250px;
     display: flex;
     position: absolute;
@@ -84,7 +84,7 @@ body {
 
 .header {
    border-top-right-radius: 100px;
-   margin-right: 2rem;
+   margin-right: 3rem;
    flex: 0 1 40%;
 
    @media only screen and (max-width: 50em) {
@@ -97,7 +97,7 @@ body {
    }
 
    &__logo-box {
-       margin-bottom: 2rem;
+       margin-bottom: 3rem;
    }
 }
 
@@ -147,10 +147,10 @@ body {
 
     &__bar-container {
         width: 100%;
-        height: 10px;
+        height: 1.2rem;
         border-radius: 100px;
         background-color: var(--color-very-dark-blue);
-        border: 1px solid var(--color-very-dark-blue);
+        border: 2px solid var(--color-very-dark-blue);
         box-sizing: content-box;
         position: relative;
         overflow: hidden;
@@ -171,8 +171,8 @@ body {
             &::before {
                 content: '';
                 background-color: var(--color-white);
-                width: 8px;
-                height: 8px;
+                width: 1rem;
+                height: 1rem;
                 border-radius: 50%;
                 position: absolute;
                 right: 1px;
@@ -191,11 +191,11 @@ body {
 
     &__space-left-container {
         color: var(--color-very-dark-blue);
-        padding: 1rem 2rem;
+        padding: 1.2rem 2.4rem;
         border-radius: 10px;
         background-color: var(--color-white);
         position: absolute;
-        top: -4rem;
+        top: -4.5rem;
         right: 4rem;
         
         display: flex;
